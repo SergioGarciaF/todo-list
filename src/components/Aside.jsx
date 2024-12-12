@@ -22,7 +22,7 @@ const Aside = () => {
       <AnimatePresence>
         {show && (
           <motion.div
-            className="fixed top-0 left-0 z-10 w-full h-full text-white bg-secondary"
+            className="fixed top-0 left-0 z-10 w-full h-full overflow-y-auto text-white bg-secondary"
             initial={{ opacity: 0, y: "100%" }} // Aparece desde abajo con opacidad 0
             animate={{ opacity: 1, y: 0 }} // Transición a visible
             exit={{ opacity: 0, y: "100%" }} // Sale hacia abajo con opacidad 0
