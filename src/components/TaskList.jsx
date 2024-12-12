@@ -13,7 +13,7 @@ const TaskList = ({ tasks, handleDelete }) => {
             exit={{ opacity: 0, x: -100 }} // Animación al eliminar
             transition={{ duration: 0.3 }}
           >
-            <p className="w-48 p-1 rounded-md shadow-md bg-secondary">{task.content}</p>
+            <p className="w-48 p-1 rounded-md shadow-md bg-secondary"><span className="p-1">{task.content}</span></p>
             <motion.button
               whileHover={{ scale: 0.95 }}
               className="w-20 border border-white rounded-md hover:bg-secondary"
