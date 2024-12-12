@@ -39,7 +39,7 @@ function App() {
     <div>
       <Aside/>
       <div className="flex flex-col items-center justify-center ">
-        <h1 className="absolute top-0 mt-4 text-5xl font-knewave">
+        <h1 className="absolute top-0 mt-20 text-3xl md:mt-4 md:text-5xl font-knewave">
           Todo List App 📜✏️
         </h1>
 
