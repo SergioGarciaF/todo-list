@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import InputTask from "./components/InputTask";
 import TaskList from "./components/TaskList";
-import "./app.css";
+import "./App.css";
 import { v4 as uuidv4 } from "uuid";
 import Aside from "./components/Aside";
 
